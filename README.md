@@ -1,3 +1,2 @@
-# meu-primeiro-repo
-Meu repositório da faculdade
-alteração
+# Repositório público
+Repositório público da faculdade

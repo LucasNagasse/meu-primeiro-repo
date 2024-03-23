@@ -3,6 +3,7 @@ Repositório público da faculdade.
 [https://github.com/LucasNagasse/sptechPublicRepo](https://github.com/LucasNagasse/sptechPublicRepo).
 ## Nomeação dos arquivos:
     Padrão de nomes de arquivo: <matéria>S<sprint><Atividade>v<versão>.
+    
     Exemplo 1: "piS1A1.3v2".
     Significado: Versão 2 do 3o documento da aula 1 de Pesquisa e Inovação da sprint 1.
     Exemplo 2: "algS2E4.21v3".

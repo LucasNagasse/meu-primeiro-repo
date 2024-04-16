@@ -1,0 +1,81 @@
+* {
+  font-family: Arial;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #32b9cd;
+  padding: 0 10%;
+  background-color: black;
+}
+.header h1 {
+  width: fit-content;
+  font-weight: 500;
+  color: #32b9cd;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  width: 300px;
+}
+.header .navbar {
+  color: #e3b062;
+}
+.header .navbar li a {
+  text-decoration: none;
+  color: #e3b062;
+}
+#indiceHeader a {
+  font-weight: 1000;
+  color: #32b9cd;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  width: 100%;
+  background-image: url("imgs/bg-jelly-fish-para-home.png");
+  color: #ffffff;
+}
+.banner .frase {
+  display: flex;
+  flex-direction: column;
+  font-size: 2.5rem;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2%;
+}
+.social .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  border: 3px solid #32b9cd;
+  padding: 2%;
+  width: 20%;
+}
+.social .card img {
+  width: 50%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #32b9cd;
+}

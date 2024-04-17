@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exercício de PI (ChartJS)</title>
+  </head>
+  <body>
+    <div class="main">
+      <div>
+        <canvas id="canvas1"></canvas>
+      </div>
+      <div>
+        <canvas id="canvas2"></canvas>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      new Chart(document.getElementById("canvas1"), {
+        type: "line",
+        data: {
+          labels: [12, 13, 14, 15, 16, 17],
+          datasets: [
+            {
+              label: "Temperatura",
+              data: [30, 29, 28, 25, 22, 23],
+              borderWidth: 5,
+              borderColor: "#FF6384",
+              backgroundColor: "#FF6384",
+            },
+            {
+              label: "Umidade",
+              data: [80, 82, 80, 85, 80, 83],
+              borderWidth: 5,
+              borderColor: "#36A2EB",
+              backgroundColor: "#36A2EB",
+            },
+          ],
+        },
+      });
+      new Chart(canvas2, {
+        type: "bar",
+        data: {
+          labels: ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho"],
+          datasets: [
+            {
+              label: "Temperatura",
+              data: [22, 24, 27, 23, 20, 18],
+              borderWidth: 1,
+              borderColor: "#FF6384",
+              backgroundColor: "#FF6384",
+            },
+            {
+              label: "Umidade",
+              data: [90, 89, 83, 87, 88, 82],
+              borderWidth: 1,
+              borderColor: "#36A2EB",
+              backgroundColor: "#36A2EB",
+            },
+          ],
+        },
+        options: {
+          y: {
+            max: 100,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
